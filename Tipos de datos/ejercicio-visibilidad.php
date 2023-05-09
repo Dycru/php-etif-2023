@@ -79,16 +79,54 @@ class Barco extends Vehiculo {
   }
 }
 
-// Creación de objetos de las clases Coche, Avion y Barco
+// Definición de la clase CentralNuclear
+class CentralNuclear {
+  // Atributos de la clase CentralNuclear
+  private $nombre;
+  private $ubicacion;
+
+  // Métodos de la clase CentralNuclear
+  public function __construct($nombre, $ubicacion) {
+    $this->nombre = $nombre;
+    $this->ubicacion = $ubicacion;
+  }
+
+  public function getNombre() {
+    return $this->nombre;
+  }
+
+  public function getUbicacion() {
+    return $this->ubicacion;
+  }
+
+  public function generarEnergia() {
+    echo "La central nuclear está generando energía...";
+  }
+}
+
+// Creación de objetos de las clases Coche, Avion, Barco y CentralNuclear
 $coche = new Coche("Ford", 4);
 $avion = new Avion("Boeing", 2);
 $barco = new Barco("Yamaha", "Velero");
+$centralNuclear = new CentralNuclear("Central Nuclear de Almaraz", "Cáceres");
 
-// Acceso a métodos y atributos de los objetos
-echo $coche->getMarca(); // Imprime "Ford"
-echo $avion->getNumMotores(); // Imprime 2
-echo $barco->getTipo(); // Imprime "Velero"
-$coche->acelerar(); // Imprime "El vehículo está acelerando..."
-$avion->despegar(); // Imprime "El avión está despegando..."
-$barco->anclar(); // Imprime "El barco está anclando..."
-$coche->cambiarAceite(); // Imprime "Se ha cambiado el aceite del coche."
+// Acceso a métodos y atributos de los objetos creados
+echo "El coche de marca " . $coche->getMarca() . " tiene " . $coche->getNumPuertas() . " puertas.";
+echo "<br>";
+echo "El avión de marca " . $avion->getMarca() . " tiene " . $avion->getNumMotores() . " motores.";
+echo "<br>";
+echo "El barco de marca " . $barco->getMarca() . " es un " . $barco->getTipo() . ".";
+echo "<br>";
+echo "La central nuclear " . $centralNuclear->getNombre() . " está ubicada en " . $centralNuclear->getUbicacion() . ".";
+echo "<br>";
+
+// Acceso a métodos específicos de cada objeto
+$coche->cambiarAceite();
+echo "<br>";
+$avion->despegar();
+echo "<br>";
+$barco->anclar();
+echo "<br>";
+$centralNuclear->generarEnergia();
+
+?>
