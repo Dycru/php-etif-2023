@@ -1,0 +1,21 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #0078D7;
+    color: white;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+progress {
+    width: 80%;
+    height: 30px;
+    margin: 20px;
+}
