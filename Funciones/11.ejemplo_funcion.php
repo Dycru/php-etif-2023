@@ -9,6 +9,12 @@ $area_triangulo = calcular_area_triangulo(10, 10);
 
 echo 'El triangulo tiene un area de ' . $area_triangulo . ' metros cuadrados';
 
-//EJERCICIO: CREAR UNA FUNCI”N PARA CALCULAR EL AREA DE UN HEX¡GONO DE FORMULA = (PERÕMETRO * APOTEMA)/2 Y EL PERÕMETRO ES IGUAL A UN LADO *6
-
-?>
+//EJERCICIO: CREAR UNA FUNCI√ìN PARA CALCULAR EL AREA DE UN HEX√ÅGONO DE FORMULA = (PER√çMETRO * APOTEMA)/2 Y EL PER√çMETRO ES IGUAL A UN LADO *6
+function calcular_area_hexagono($lado, $apotema) {
+	$perimetro = $lado * 6;
+	$area = ($perimetro * $apotema) / 2;
+	return $area;
+  }
+  $area = calcular_area_hexagono(5, 4.5); //calcula el area de un hexagono con un lado de 5 y un apotema de 4.5
+  echo "El √°rea del hex√°gono es: " . $area;
+  
