@@ -3,7 +3,7 @@
 <head>
     <title>Verificación de cadenas</title>
 </head>
-<style>
+<style> 
     body{
         text-align: center;
         background-color: mediumspringgreen;
