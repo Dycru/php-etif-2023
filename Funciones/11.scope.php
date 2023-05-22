@@ -20,15 +20,32 @@ $numero = 7; //Variable global = acceso desde cualquier parte del código except
 // mostrarNumero();
 //echo $numero; //No se puede acceder porque la variable esta dentro de la función, necesitaremos el "return"
 
-function mostrarNumero(){
-	$numero = 10;
-	// return $numero;
-}
+// function mostrarNumero(){
+// 	$numero = 10;
+// 	// return $numero;
+// }
 
-echo mostrarNumero();
+// echo mostrarNumero();
 
 #RESUMEN:
 //1. Por parámetro para entrar la variable en la función
 //2. Con el return para sacar la variable de la función
 
+
+
+
+function mostrar_numero() {
+  // código para mostrar el número
+  $numero = 123;
+  echo $numero;
+}
+
+function mostrar_numero2() {
+  // código para mostrar el número 2
+  $numero = 2;
+  echo $numero;
+}
+
+mostrar_numero(); // Llama a la función para mostrar el número
+mostrar_numero2(); // Llama a la función para mostrar el número 2
 ?>

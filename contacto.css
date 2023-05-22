@@ -1,0 +1,55 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border: 1px solid #DDD;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Georgia", serif;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #555;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
