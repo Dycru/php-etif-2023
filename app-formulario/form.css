@@ -1,0 +1,65 @@
+body {
+    background-image: url(descarga.jpg);
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+    color: #996633;
+    text-align: center;
+}
+
+form {
+    background-color: #d4c6a9;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    color: #4F3A2D;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="register"],
+input[type="login"] {
+    background-color: #4F3A2D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="register"]:hover,
+input[type="login"]:hover {
+    background-color: #996633;
+}
+
+.error-message {
+    color: #FF0000;
+}
+
+#hobbit-image {
+    display: block;
+    margin: 20px auto;
+}

@@ -14,8 +14,12 @@
         <ul class="nav-bar">
             <li><a href="index.php" class="active">Inicio</a></li>
             <li><a href="about.php">Acerca de nosotros</a></li>
-            <li><a href="services.php">Servicios</a></li>
+            <li><a href="login.php">Log in</a></li>
             <li><a href="contacto.php">Contacto</a></li>
+            <li><a href="index3.php">sign in</a></li>
+            <li><a href="cookies.php">Politica de cookies</a></li>
+            <li><a href="index4.html">Contador</a></li>
+            
         </ul>
     </nav>
     <div class="container">

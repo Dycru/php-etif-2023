@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.container {
+    margin: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Estilos específicos del perfil */
+.nav-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.nav-bar li a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-info p {
+    margin: 0;
+}

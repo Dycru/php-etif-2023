@@ -77,7 +77,7 @@ h2 {
     clear: both;
 }
 p{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h2{
@@ -95,3 +95,105 @@ footer{
     text-align: center;
 }
 
+/* cookies.css */
+
+.cookie-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.cookie-popup-content {
+    text-align: center;
+}
+
+.cookie-popup p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.cookie-popup-buttons {
+    margin-top: 10px;
+}
+
+.cookie-popup-buttons button {
+    background-color: #ffbb00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cookie-popup-buttons button:hover {
+    background-color: #ffcc33;
+}
+
+.cookie-popup-buttons .deny-button {
+    background-color: transparent;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.cookie-popup-buttons .deny-button:hover {
+    background-color: transparent;
+    color: #ffcc33;
+}
+
+.cookie-popup-buttons .accept-button {
+    background-color: #ffbb00;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.cookie-popup-buttons .accept-button:hover {
+    background-color: #ffcc33;
+}
+ /* Estilos para la ventana emergente de cookies */
+ .cookie-popup {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-popup-content {
+    margin-right: 20px;
+}
+
+.cookie-popup p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cookie-popup-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ffbb00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cookie-popup-buttons button:hover {
+    background-color: #ff9900;
+}
+    
+ 
