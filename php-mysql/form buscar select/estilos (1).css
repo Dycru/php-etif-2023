@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c8bfb7;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.wrap {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f3ee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-top: 4px solid #704214;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #704214;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #704214;
+  margin-bottom: 10px;
+}
+
+select,
+input[type="number"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #704214;
+  border-radius: 4px;
+  background-color: #f8f3ee;
+  color: #704214;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #704214;
+  color: #f8f3ee;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.alert-danger {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.alert-success {
+  background-color: #6ab04c;
+  color: #fff;
+}

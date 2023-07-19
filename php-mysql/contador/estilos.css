@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Digital_rain_animation_small_letters_clear.gif);
+	color:#09ff00;
+	font-family: "Oswald";
+}
+
+.visitantes {
+	background: #1eff00;
+	width: 200px;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 30px auto; 
+	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: center;
+	margin: 30px 0;
+	color:#00ff0d;
+}
+
+.visitantes .numero {
+	font-weight: normal;
+	font-size: 60px;
+	color:#000000;
+}
+
+.visitantes .texto {
+	color: #000000;
+	font-weight: normal;
+	font-size: 30px;
+}

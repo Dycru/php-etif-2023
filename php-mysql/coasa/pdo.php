@@ -7,7 +7,7 @@
 // Cristina de la id 3 tiene el correo cristina@pr0j3ct.com
 // Rafael de la id 4 tiene el correo rafael@correo.com
 
-try {
+	try {
 	
 	$conexion = new PDO('mysql:host=localhost;dbname=prueba_consola', 'root', '');
 
